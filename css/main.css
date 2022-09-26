@@ -1,0 +1,26 @@
+.shindan .q-choices {
+	display: flex;
+	margin-left: 0;
+}
+.shindan .q-choices li {
+	list-style:none;
+	font-size: 1.1em;
+	margin-right: 2em;
+}
+.shindan .q-choices li a{
+	display: inline-block;
+	border: 0;
+	padding: 1em;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #00BB23;
+	box-shadow: 0px 5px 0px #009B1B;
+}
+.shindan .q-choices li a:hover, .shindan .q-choices li a:active, .shindan .q-choices li a:focus {
+	background-color: #4EBF53;
+	box-shadow: none;
+	-webkit-transform: translate3d(0px, 5px, 1px);
+	-moz-transform: translate3d(0px, 5px, 1px);
+	transform: translate3d(0px, 5px, 1px);
+}
